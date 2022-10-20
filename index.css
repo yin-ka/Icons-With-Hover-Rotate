@@ -1,0 +1,41 @@
+body {
+    background-color: #111827;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.social-icons {
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.social-icons li {
+    margin: 0 20px;
+}
+
+.social-icons li a {
+    border: 3px solid deepskyblue;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 50%;
+    border-right: none;
+    border-top: none;
+    transition: 0.3s ease;
+}
+
+.social-icons li a:hover {
+    border-top: 3px solid;
+    border-right: 3px solid;
+    transform: rotate(360deg);
+    background-color: deepskyblue;
+    border-color: white;
+}
